@@ -1,0 +1,11 @@
+10ns 0 0 0 #Resetting all signals
+10ns 1 0 0 #Now the circuit is iniatialized
+10ms 1 1 1 #The button is set to 1 and 10 ms waited so the output should be 1
+10ms 1 0 1 #The LED should stay on until the button is pressed again"
+5ms 1 1 1 # The button is set only for 5 ms the LED should not change
+10ns 1 0 1 
+10ms 1 1 0 #The button is set to 1 and 10 ms waited so the output should be 0
+10ms 1 0 0
+10ns 0 1 0 #if rst pressed, output is 0 
+10ns 0 1 0 #End of simulation
+

@@ -1,0 +1,52 @@
+Simulation of top_practica1.vhd
+
+Time: 10 ns; RST_N: 0; BTNC: 0; LED: 0 ;
+
+Correct value of LED: 0 ;
+
+
+Time: 10 ns; RST_N: 1; BTNC: 0; LED: 0 ;
+
+Correct value of LED: 0 ;
+
+
+Time: 10000000 ns; RST_N: 1; BTNC: 1; LED: 1 ;
+
+Correct value of LED: 1 ;
+
+
+Time: 10000000 ns; RST_N: 1; BTNC: 0; LED: 1 ;
+
+Correct value of LED: 1 ;
+
+
+Time: 5000000 ns; RST_N: 1; BTNC: 1; LED: 1 ;
+
+ERROR: expected LED to be 1 actual value 0 ;
+
+
+Time: 10 ns; RST_N: 1; BTNC: 0; LED: 1 ;
+
+ERROR: expected LED to be 1 actual value 0 ;
+
+
+Time: 10000000 ns; RST_N: 1; BTNC: 1; LED: 0 ;
+
+Correct value of LED: 0 ;
+
+
+Time: 10000000 ns; RST_N: 1; BTNC: 0; LED: 0 ;
+
+Correct value of LED: 0 ;
+
+
+Time: 10 ns; RST_N: 0; BTNC: 1; LED: 0 ;
+
+Correct value of LED: 0 ;
+
+
+Time: 10 ns; RST_N: 0; BTNC: 1; LED: 0 ;
+
+Correct value of LED: 0 ;
+
+Finished simulation of top_practica1.vhd
